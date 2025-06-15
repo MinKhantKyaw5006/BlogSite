@@ -11,7 +11,7 @@ export default async function Home() {
       <h1>Hello</h1>
       {session ? (
         <LogoutLink>
-          <Button>Logout</Button>
+          <Button>Logout  </Button>
         </LogoutLink>
       ):(
         <div>
